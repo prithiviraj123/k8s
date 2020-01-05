@@ -8,12 +8,12 @@ spec:
   replicas: 2
   selector: 
     matchLabels: 
-      app: myapp
+      app: myappl
   template: 
     metadata: 
       labels: 
-        app: myapp
-      name: myapp-pod
+        app: myappl
+      name: myappl-pod
     spec: 
       containers: 
         - 
